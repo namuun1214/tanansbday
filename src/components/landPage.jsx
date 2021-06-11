@@ -1,11 +1,14 @@
-import Slider from './sliderImages'
-import CommentPreview from './commentPreview'
+import Slider from "./sliderImages";
+import CommentPreview from "./commentPreview";
 
 const landPage = () => {
-    return <>
-        <Slider />
-        <CommentPreview />
+  return (
+    <>
+      <Slider />
+      <div style={{ height: 100 }}></div>
+      <CommentPreview />
     </>
-}
+  );
+};
 
-export default landPage
+export default landPage;
